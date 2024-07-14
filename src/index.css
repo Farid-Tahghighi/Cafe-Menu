@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Ferdowsi;
+    src: url("../fonts/Far_Ferdowsi.ttf");
+}
+
+.font {
+    font-family: Ferdowsi;
+}
+
+@keyframes delay {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.text-anim {
+    animation-name: delay;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
